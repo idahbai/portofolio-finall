@@ -42,3 +42,15 @@
 .project-card img{width:100%;height:180px;object-fit:cover;display:block}
 .project-card h3{margin:16px;color:#0f172a}
 .project-card p{margin:0 16px 16px;color:#475569;font-size:.95rem;line-height:1.5}
+
+/* Contact Section */
+.contact{padding:60px 16px;background:#f8fafc}
+.contact h2{text-align:center;margin-bottom:24px;color:#0f172a}
+.contact-form{max-width:600px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.contact-form label{font-weight:600;color:#334155}
+.contact-form input,
+.contact-form textarea{padding:12px;border:1px solid #cbd5e1;border-radius:8px;font-size:1rem}
+.contact-form input:focus,
+.contact-form textarea:focus{outline:none;border-color:#0ea5e9;box-shadow:0 0 0 2px rgba(14,165,233,.3)}
+.contact-form button{padding:12px;border:none;border-radius:8px;background:#0ea5e9;color:white;font-size:1rem;font-weight:600;cursor:pointer;transition:background .2s}
+.contact-form button:hover{background:#0284c7}
