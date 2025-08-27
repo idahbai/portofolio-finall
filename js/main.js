@@ -1,0 +1,3 @@
+document.querySelector('.menu-toggle')?.addEventListener('click', ()=>{
+  document.getElementById('main-nav')?.classList.toggle('show');
+});
